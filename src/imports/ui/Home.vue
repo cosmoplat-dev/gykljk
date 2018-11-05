@@ -64,7 +64,6 @@ function emulateTour(){
       }
     }
 }
-var timer = setInterval(emulateTour,5000);
 
 export default {
   data () {
@@ -73,6 +72,7 @@ export default {
     }
   },
   mounted(){
+    var timer = setInterval(emulateTour,5000);
   },
   methods: {
   },
