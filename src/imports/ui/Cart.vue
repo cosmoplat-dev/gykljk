@@ -10,7 +10,7 @@
     </div>
   </transition>
 </template>
-
+//
 <script>
 import { mapActions } from 'vuex'
 

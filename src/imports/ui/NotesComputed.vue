@@ -39,7 +39,7 @@ export default {
     // Not SSR friendly (for now)
     this.$subscribe('notes', () => [this.limit])
   },
-
+//
   computed: {
     notes () {
       // Not SSR friendly (for now)

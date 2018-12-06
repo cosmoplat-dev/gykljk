@@ -64,7 +64,7 @@ function emulateTour(){
       }
     }
 }
-
+//
 export default {
   data () {
     return {
